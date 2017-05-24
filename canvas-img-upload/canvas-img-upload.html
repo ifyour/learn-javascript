@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/canvas-img-upload.css"/>
+	</head>
+	<body>
+
+			<!-- canvas-img-upload 插件容器-->
+			<div class="canvas-img-upload" id="canvas-img-upload">
+
+			</div>
+
+			<script src="js/canvas-img-upload.js" type="text/javascript" charset="utf-8"></script>
+			<script>
+
+				//参数1：回调函数,参数2：回显图片的地址,如果无，则为空,deflautPicURL默认显示的图片地址，radius大圆半径（非必填），smallRadius小圆半径（非必填）
+				var imgUpload = new canvasImgUpload(function(dataURL){
+					console.log(dataURL)
+				},"","./img/nopic.png")
+			</script>
+	</body>
+</html>

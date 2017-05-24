@@ -1,0 +1,132 @@
+.hide {
+    display: none !important;
+}
+
+.canvas-img-upload {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.canvas-img-upload .green_c {
+    color: #8eda93;
+}
+
+.canvas-img-upload .gray_c {
+    color: #9F9F9F;
+}
+
+.canvas-img-upload:after {
+    content: "";
+    overflow: hidden;
+    clear: both;
+    height: 0;
+    display: block;
+}
+
+.canvas-img-upload .sl-pic-box {
+    float: left;
+    width: 330px;
+    height: 330px;
+    background: #f1f1f1;
+    position: relative;
+}
+
+.canvas-img-upload .sl-pic-box>.tip {
+    position: absolute;
+    top: 140px;
+    width: 100%;
+    z-index: 999;
+}
+
+.canvas-img-upload .sl-pic-box>img {
+    width: 330px;
+    height: 330px;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    line-height: 330px;
+    text-align: center;
+    display: block;
+    background: #fff;
+}
+
+.canvas-img-upload .sl-pic-box .sl-pic-btn {
+    width: 90px;
+    height: 20px;
+    line-height: 20px;
+    box-shadow: 1px 1px 1px #CCCCCC;
+    background: #fff;
+    padding: 5px 10px;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    left: 110px;
+    top: 100px;
+    z-index: 999;
+}
+
+.canvas-img-upload .sl-pic-box .sl-pic-btn span {
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0bc3a7;
+}
+
+.canvas-img-upload .sl-pic-box .sl-again-btn {
+    position: absolute;
+    left: 10px;
+    z-index: 1;
+    bottom: 20px;
+    background: #fff;
+    border: 1px solid #CBCBCB;
+    box-shadow: 1px 1px 1px #CBCBCB;
+    border-radius: 3px;
+    z-index: 999;
+    width: 95px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.canvas-img-upload .lookpic-box {
+    position: relative;
+}
+
+.canvas-img-upload .lookpic-box img {
+    height: 180px;
+    width: 180px;
+    display: block;
+}
+
+.canvas-img-upload .lookpic {
+    float: left;
+    margin-left: 90px;
+    width: 180px;
+    height: 210px;
+    text-align: center;
+    vertical-align: middle;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.canvas-img-upload .lookpic-box {
+    border-radius: 50%;
+    background: #f1f1f1;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.canvas-img-upload canvas {
+    position: absolute;
+    z-index: 998;
+    left: 0px;
+    top: 0px;
+    cursor: default;
+}
